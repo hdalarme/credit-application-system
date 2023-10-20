@@ -1,4 +1,4 @@
-package xyz.helbertt.credit.application.system.controller.Dto
+package xyz.helbertt.credit.application.system.controller.Dto.customer
 
 import xyz.helbertt.credit.application.system.entity.Customer
 import java.math.BigDecimal
