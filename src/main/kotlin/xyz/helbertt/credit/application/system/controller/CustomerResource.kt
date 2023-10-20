@@ -11,7 +11,7 @@ import xyz.helbertt.credit.application.system.entity.Customer
 import xyz.helbertt.credit.application.system.service.impl.CustomerService
 
 @RestController
-@RequestMapping("/api-customers")
+@RequestMapping("/api/customers")
 class CustomerResource(
     private val customerService: CustomerService
 ) {
