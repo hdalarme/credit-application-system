@@ -1,5 +1,6 @@
 package xyz.helbertt.credit.application.system.service.impl
 
+import org.springframework.stereotype.Service
 import xyz.helbertt.credit.application.system.entity.Credit
 import xyz.helbertt.credit.application.system.repository.CreditRepository
 import xyz.helbertt.credit.application.system.service.ICreditService
@@ -7,6 +8,7 @@ import java.lang.RuntimeException
 
 import java.util.*
 
+@Service
 class CreditService(
         private val creditRepository: CreditRepository,
         private val customerService: CustumerService
