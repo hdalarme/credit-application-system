@@ -3,12 +3,12 @@ package xyz.helbertt.credit.application.system.service.impl
 import org.springframework.stereotype.Service
 import xyz.helbertt.credit.application.system.entity.Customer
 import xyz.helbertt.credit.application.system.exception.BusinessException
-import xyz.helbertt.credit.application.system.repository.CustomerRepositoty
+import xyz.helbertt.credit.application.system.repository.CustomerRepository
 import xyz.helbertt.credit.application.system.service.ICustomerService
 
 @Service
 class CustomerService(
-        private val customerRepository: CustomerRepositoty
+        private val customerRepository: CustomerRepository
 ): ICustomerService {
     override fun save(customer: Customer): Customer = this.customerRepository.save(customer)
 

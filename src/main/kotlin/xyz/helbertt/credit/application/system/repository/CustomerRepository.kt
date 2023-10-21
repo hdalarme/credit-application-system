@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository
 import xyz.helbertt.credit.application.system.entity.Customer
 
 @Repository
-interface CustomerRepositoty: JpaRepository<Customer, Long> {
+interface CustomerRepository: JpaRepository<Customer, Long> {
 }
